@@ -1,0 +1,8 @@
+.dockerignore
+.travis.yml
+*.md
+DCO
+LICENSE
+NOTICE
+docs
+cloudconfig
