@@ -46,7 +46,7 @@ spec:
         - mountPath: /config
           name: secret-volume
       nodeSelector:
-        kubernetes.io/hostname: mec-w2
+        kubernetes.io/hostname: mec-w1
 
 ---
 apiVersion: v1
@@ -74,7 +74,7 @@ spec:
         - containerPort: 5432
           name: postgres-port
       nodeSelector:
-        kubernetes.io/hostname: mec-w2
+        kubernetes.io/hostname: mec-w1
 ---
 apiVersion: v1
 kind: Service
